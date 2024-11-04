@@ -24,7 +24,7 @@ This lab shows how I observe the traffic of virtual machines in the same network
 
 Within Azure, I created two virtual machines in the same virtual network/resouce group. One Windows (Windows 10) and one Linux (Ubuntu).
 
-The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed and will use Command Line/Powershell to communicate with the Linux machine.
+The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed and will use Command Line/PowerShell to communicate with the Linux machine.
 
 <h2>Actions and Observations</h2>
 <h3>Observe ICMP Traffic</h3>
@@ -55,7 +55,7 @@ The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed 
   <p><img width="90%" alt="Screenshot 2024-11-04 at 2 03 14 PM" src="https://github.com/user-attachments/assets/026cd58f-338d-4a15-9601-3260d0fbb188">
 </p>
 
-- Connecting to the Ubuntu machine via its Private IP address in Powershell using SSH protocol
+- Connecting to the Ubuntu machine via its Private IP address in PowerShell using SSH protocol
    <p><img width="90%" alt="Screenshot 2024-11-04 at 2 14 01 PM" src="https://github.com/user-attachments/assets/f7b1f634-5910-4b75-983b-f15ccac87afa">
   </p>
    <p><img width="90%" alt="Screenshot 2024-11-04 at 2 15 37 PM" src="https://github.com/user-attachments/assets/12a76104-dea6-44bb-b781-dfcc9f14ee41">
@@ -87,7 +87,7 @@ The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed 
   <p><img width="90%" alt="Screenshot 2024-11-04 at 2 42 12 PM" src="https://github.com/user-attachments/assets/d6465790-1ade-4c12-8a5a-4efcc35e2233">
 </p>
 
-- Running the .bat file in Powershell (run as Administrator)
+- Running the .bat file in PowerShell (run as Administrator)
 - The .bat file will refresh your VM
   <p><img width="90%" alt="Screenshot 2024-11-04 at 2 48 11 PM" src="https://github.com/user-attachments/assets/5c8a6a3f-b621-46d1-ad99-67547de350ca">
 </p>
@@ -106,7 +106,7 @@ The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed 
   <p><img width="90%" alt="Screenshot 2024-11-04 at 4 02 44 PM" src="https://github.com/user-attachments/assets/6beabeb5-c317-4274-846a-df569fcd51ce">
 </p>
 
-- Using `nslookup` command in Powershell to "look up" a website's IP address
+- Using `nslookup` command in PowerShell to "look up" a website's IP address
   <p><img width="90%" alt="Screenshot 2024-11-04 at 4 10 06 PM" src="https://github.com/user-attachments/assets/ee1cee7f-7442-48eb-bf32-a44b2bf09387">
   </p>
   <p><img width="90%" alt="Screenshot 2024-11-04 at 4 10 42 PM" src="https://github.com/user-attachments/assets/a3dfb1da-3b84-479c-851e-f31475ffe730">
