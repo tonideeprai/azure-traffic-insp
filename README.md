@@ -36,18 +36,18 @@ The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed 
 
 - I retreive the private IP addresss of of Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
 <p>
-  <img width="80%" alt="Screenshot 2024-11-04 at 1 42 50 PM" src="https://github.com/user-attachments/assets/db6ab769-3b01-4a61-9a1d-6944cafe4fbd">
+  <img width="90%" alt="Screenshot 2024-11-04 at 1 42 50 PM" src="https://github.com/user-attachments/assets/db6ab769-3b01-4a61-9a1d-6944cafe4fbd">
 </p>
 <p>
-  <img width="80%" alt="Screenshot 2024-11-04 at 1 48 05 PM" src="https://github.com/user-attachments/assets/39cce970-8695-4db1-8209-19d4a44df29c">
+  <img width="90%" alt="Screenshot 2024-11-04 at 1 48 05 PM" src="https://github.com/user-attachments/assets/39cce970-8695-4db1-8209-19d4a44df29c">
 </p>
 
 - Results after the ping command
 <p>
-  <img width="80%" alt="Screenshot 2024-11-04 at 1 49 47 PM" src="https://github.com/user-attachments/assets/11622867-3465-47cf-b3c9-b9cd655f815b">
+  <img width="90%" alt="Screenshot 2024-11-04 at 1 49 47 PM" src="https://github.com/user-attachments/assets/11622867-3465-47cf-b3c9-b9cd655f815b">
 </p>
 <p>
-  <img width="80%" alt="Screenshot 2024-11-04 at 1 50 54 PM" src="https://github.com/user-attachments/assets/926b90e9-f985-4a74-94f0-4ffc6f4dd5c9">
+  <img width="90%" alt="Screenshot 2024-11-04 at 1 50 54 PM" src="https://github.com/user-attachments/assets/926b90e9-f985-4a74-94f0-4ffc6f4dd5c9">
 </p>
 
   
