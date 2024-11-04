@@ -91,6 +91,41 @@ The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed 
 - The .bat file will refresh your VM
   <p><img width="90%" alt="Screenshot 2024-11-04 at 2 48 11 PM" src="https://github.com/user-attachments/assets/5c8a6a3f-b621-46d1-ad99-67547de350ca">
 </p>
+
+- After running the file
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 3 55 29 PM" src="https://github.com/user-attachments/assets/98725487-a552-42ab-829d-9da6c6123f5b">
+</p>
+
+- Observing the packets captured
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 3 58 42 PM" src="https://github.com/user-attachments/assets/32e524c8-b573-4a1d-ba91-671f141c1663">
+</p>
+<hr>
+<h3>Observe DNS Traffic</h3>
+
+- Filtering out only DNS traffic in Wireshark
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 4 02 44 PM" src="https://github.com/user-attachments/assets/6beabeb5-c317-4274-846a-df569fcd51ce">
+</p>
+
+- Using `nslookup` command in Powershell to "look up" a website's IP address
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 4 10 06 PM" src="https://github.com/user-attachments/assets/ee1cee7f-7442-48eb-bf32-a44b2bf09387">
+  </p>
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 4 10 42 PM" src="https://github.com/user-attachments/assets/a3dfb1da-3b84-479c-851e-f31475ffe730">
+  </p>
+
+- Observing packets captured in Wireshark
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 4 12 41 PM" src="https://github.com/user-attachments/assets/1faa5e0f-e8b2-4ce4-ba02-bf0a78babae3">
+</p>
+<hr>
+<h3>Observe RDP Traffic</h3>
+
+- Filtering out RDP traffic (TCP port 3389) in Wireshark
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 4 16 21 PM" src="https://github.com/user-attachments/assets/202a8a5f-7712-4412-911d-fa6b5c5ce904">
+  </p>
+
+- Observing the traffic
+- RDP Protocol is constantly "listening"
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 4 17 56 PM" src="https://github.com/user-attachments/assets/b57771ef-471e-4e67-8893-63fbbcea1f00">
+</p>
   
   
   
