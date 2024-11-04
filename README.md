@@ -12,7 +12,7 @@ This lab shows how I observe the traffic of virtual machines in the same network
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Connection
 - Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, RDP, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
