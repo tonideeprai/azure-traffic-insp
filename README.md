@@ -30,26 +30,69 @@ The Windows VM has <a href="https://www.wireshark.org/">Wireshark</a> installed 
 <h3>Observe ICMP Traffic</h3>
 
 - In my Windows VM, I open Wireshark and start capturing packets. I filter out to see only ICMP traffic
-<p>
-<img width="80%" alt="Screenshot 2024-11-04 at 1 34 31 PM" src="https://github.com/user-attachments/assets/2e9705da-b058-4d48-b1a0-13dafe1ef87a">
+  <p>
+  <img width="90%" alt="Screenshot 2024-11-04 at 1 34 31 PM" src="https://github.com/user-attachments/assets/2e9705da-b058-4d48-b1a0-13dafe1ef87a">
 </p>
 
 - I retreive the private IP addresss of of Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
-<p>
+  <p>
   <img width="90%" alt="Screenshot 2024-11-04 at 1 42 50 PM" src="https://github.com/user-attachments/assets/db6ab769-3b01-4a61-9a1d-6944cafe4fbd">
-</p>
-<p>
+  </p>
+  <p>
   <img width="90%" alt="Screenshot 2024-11-04 at 1 48 05 PM" src="https://github.com/user-attachments/assets/39cce970-8695-4db1-8209-19d4a44df29c">
 </p>
 
-- Results after the ping command
-<p>
-  <img width="90%" alt="Screenshot 2024-11-04 at 1 49 47 PM" src="https://github.com/user-attachments/assets/11622867-3465-47cf-b3c9-b9cd655f815b">
-</p>
-<p>
+- After entering the ping command
+  <p>
+  <img width="90%" alt="Screenshot 2024-11-04 at 1 49 47 PM" src="https://github.com/user-attachments/assets/11622867-3465-47cf-b3c9-b9cd655f815b"></p>
+    <p>
   <img width="90%" alt="Screenshot 2024-11-04 at 1 50 54 PM" src="https://github.com/user-attachments/assets/926b90e9-f985-4a74-94f0-4ffc6f4dd5c9">
+  </p>
+<hr>
+<h3>Observe SSH Traffic</h3>
+
+- Filtering out only SSH traffic in Wireshark
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 03 14 PM" src="https://github.com/user-attachments/assets/026cd58f-338d-4a15-9601-3260d0fbb188">
 </p>
 
+- Connecting to the Ubuntu machine via its Private IP address in Powershell using SSH protocol
+   <p><img width="90%" alt="Screenshot 2024-11-04 at 2 14 01 PM" src="https://github.com/user-attachments/assets/f7b1f634-5910-4b75-983b-f15ccac87afa">
+  </p>
+   <p><img width="90%" alt="Screenshot 2024-11-04 at 2 15 37 PM" src="https://github.com/user-attachments/assets/12a76104-dea6-44bb-b781-dfcc9f14ee41">
+  </p>
+
+- Checking VM's ID and host name
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 21 14 PM" src="https://github.com/user-attachments/assets/a5a37704-b756-443a-a921-7578f19e4e0f">
+  </p>
+
+ - Inspecting the captured packets and their data
+    <p><img width="90%" alt="Screenshot 2024-11-04 at 2 22 48 PM" src="https://github.com/user-attachments/assets/5d0d7c21-eeb3-46e7-89dd-c9e0140c4149">
+  </p>
+
+- Exiting the VM
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 26 16 PM" src="https://github.com/user-attachments/assets/84c7552a-711d-439b-a53f-01810198dc08">
+</p>
+
+- Inspecting the traffic in TCP port 22 (SSH common port)
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 30 48 PM" src="https://github.com/user-attachments/assets/eb6b79ba-ec6f-4bad-bf93-fe84d41c33d4">
+  </p>
+<hr>
+<h3>Observe DHCP Traffic</h3>
+
+- Filtering out only DHCP traffic in Wireshark
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 34 37 PM" src="https://github.com/user-attachments/assets/5f6d3c21-e31e-4677-ae01-0794c9e3d217">
+  </p>
+
+- Writing a .bat file in Notepad to renew and release the ip address
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 42 12 PM" src="https://github.com/user-attachments/assets/d6465790-1ade-4c12-8a5a-4efcc35e2233">
+</p>
+
+- Running the .bat file in Powershell (run as Administrator)
+- The .bat file will refresh your VM
+  <p><img width="90%" alt="Screenshot 2024-11-04 at 2 48 11 PM" src="https://github.com/user-attachments/assets/5c8a6a3f-b621-46d1-ad99-67547de350ca">
+</p>
+  
+  
   
  
 
